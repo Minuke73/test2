@@ -24,7 +24,6 @@
 	-webkit-tap-highlight-color: transparent;
 }
 </style>
-<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
 <script src="3학년_1_10p_어깨동무_20240520.js"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
@@ -70,6 +69,7 @@ function handleComplete(evt,comp) {
 function playSound(id, loop, offset) {
 	return createjs.Sound.play(id, {'interrupt':createjs.Sound.INTERRUPT_EARLY, 'loop': loop, 'offset': offset});}
 </script>
+<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
